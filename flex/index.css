@@ -1,7 +1,7 @@
 
 .container{
     display: flex;
-    height: 100vh; /* pega toda a altura*/
+    height: 100vh; /* Oculpa toda a altura*/
     background-color: blue;
     align-items: center; /* alinha os itens no centro da horizontal*/
     justify-content: center;/* alinha o itens no centro da vertical*/

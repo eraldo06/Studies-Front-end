@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-rows: 8% 1fr 8%;
+    grid-template-columns: 80% 20%;
+}
+header{
+    grid-area: header; /* nome */
+    background-color: green;
+}
+main{
+    grid-area: main;
+    background-color: red;
+}
+aside{
+    grid-area: aside;
+    background-color: blue;
+}
+footer{
+    grid-area: footer;
+    background-color: gray;
+}
