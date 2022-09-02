@@ -10,18 +10,18 @@ body{
     grid-template-columns: 80% 20%; /*column size*/
 }
 header{
-    grid-area: header; /* name placed in the structure*/
+    grid-area: header; /*name placed in the structure*/
     background-color: green;
 }
 main{
-    grid-area: main; /* name placed in the structure*/
+    grid-area: main; /*name placed in the structure*/
     background-color: red;
 }
 aside{
-    grid-area: aside; /* name placed in the structure*/
+    grid-area: aside; /*name placed in the structure*/
     background-color: blue;
 }
 footer{
-    grid-area: footer;/* name placed in the structure*/
+    grid-area: footer;/*name placed in the structure*/
     background-color: gray;
 }
