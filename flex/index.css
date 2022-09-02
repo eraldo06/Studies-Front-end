@@ -1,10 +1,10 @@
 
 .container{
     display: flex;
-    height: 100vh; /* Oculpa toda a altura*/
+    height: 100vh; /*takes up all the space*/
     background-color: blue;
-    align-items: center; /* alinha os itens no centro da horizontal*/
-    justify-content: center;/* alinha o itens no centro da vertical*/
+    align-items: center; /* aligns items in the center of the horizontal*/
+    justify-content: center;/* aligns items in the center of the vertical*/
 }
 .box{
     width: 50px;
