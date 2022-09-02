@@ -2,26 +2,26 @@ body{
     margin: 0;
     display: grid;
     height: 100vh;
-    grid-template-areas: 
-    "header header"
+    grid-template-areas: /* essa é a estrutura da pagina, com 2 coluna e 3 linha*/
+    "header header" 
     "main aside"
-    "footer footer";
-    grid-template-rows: 8% 1fr 8%;
-    grid-template-columns: 80% 20%;
+    "footer footer"; 
+    grid-template-rows: 8% 1fr 8%; /*tamanho das linhas*/
+    grid-template-columns: 80% 20%; /*tamanho das colunas*/
 }
 header{
-    grid-area: header; /* nome */
+    grid-area: header; /* nome colocado na estrutura*/
     background-color: green;
 }
 main{
-    grid-area: main;
+    grid-area: main; /* nome colocado na estrutura */
     background-color: red;
 }
 aside{
-    grid-area: aside;
+    grid-area: aside; /* nome colocado na estrutura*/
     background-color: blue;
 }
 footer{
-    grid-area: footer;
+    grid-area: footer;/* nome colocado na estrutura */
     background-color: gray;
 }
