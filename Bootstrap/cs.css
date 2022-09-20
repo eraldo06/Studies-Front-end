@@ -1,4 +1,10 @@
 *{
     margin: 0;
     border: 0;
+    
+}
+body{
+    background-image: url("./pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
