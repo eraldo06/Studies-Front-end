@@ -7,7 +7,8 @@
 body{
     background-image: url("./pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 200px;
+  
 }
 nav div a{
     color: blue !important;
