@@ -1,0 +1,16 @@
+/* ficar piscando */
+#arrow{
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+/* @keyframes blink{
+    to{
+        visibility: hidden;
+    } */
+/* } */
+/* termina aq */
+
+.active{
+    display: block !important;
+}

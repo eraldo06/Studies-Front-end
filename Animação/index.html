@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cs.css">
+</head>
+<body>
+   <center> <button onclick="displayAbout()" id="arrow">Mais</button></center>
+    <center><p id="about" style="display:none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestias placeat ipsa. Iure amet repudiandae corrupti dolore rem dignissimos quasi temporibus totam ab ipsam, praesentium eius veniam tempore, magnam assumenda?</p></center>
+
+    <script>
+        function displayAbout(){
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
