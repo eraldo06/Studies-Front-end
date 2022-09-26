@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.corpo-curso{
+    margin: 3% 10%;
+}
+.pagina-curso{
+    display: flex;
+    color: black;
+}
+h1{
+    color: #FF4081;
+    font-family: Ubuntu;
+    font-size: 60px;
+}
+p {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+h2{
+    color: #FF4081;
+    font-family: Ubuntu;
+    font-size: 35px;
+}
+.pagina-curso img{
+   height: 350px;
+   width: 350px;
+   margin-right: 15%;
+}
+.pagina-curso div{
+  margin-right: 8%;
+}
+section{
+    background: #F6F6F6;
+}
+.linha-divisao {
+    background-color: #C4C4C4;
+    height: 5px;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.section-aula{
+    display: flex;
+}
+.video{
+    width: 600px;
+    height: 220px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.texto{
+    margin-right: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+@media only screen and (max-width: 925px){
+    .pagina-curso h1{
+        font-size: 45px;
+    }
+    .pagina-curso p{
+        font-size: 20px;
+    }
+    .pagina-curso img{
+        max-height: 280px;
+        max-width: 280px;
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width: 725px){
+    .pagina-curso{
+        flex-wrap: wrap;
+        justify-content:center
+    }
+    .pagina-curso h1{
+        font-size: 35px;
+    }
+    .pagina-curso p{
+        font-size: 19px;
+    }
+    .corpo-curso img{
+        margin: 0 auto;
+    }
+    .section-aula{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section-aula h2{
+        font-size: 32px;
+    }
+    .section-aula p{
+        font-size: 19px;
+    }
+    .video{
+        margin-right: 10%;
+    }
+    .texto{
+        margin-left: 10%;
+    }
+}

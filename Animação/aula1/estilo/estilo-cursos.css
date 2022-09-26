@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.corpo {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+
+}
+
+.corpo h1 {
+    color: #FF4081;
+    font-family: Ubuntu;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.corpo p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    margin: 4%;
+
+}
+
+.linha-divisao {
+    background-color: #C4C4C4;
+    height: 5px;
+    margin-top: 2%;
+}
+
+.foto-cursos {
+
+    width: 300px;
+    height: 300px;
+    margin-top: 2%;
+}
+
+.foto-cursos img {
+    width: 300px;
+    height: 300px;
+}
+
+.texto-cursos {
+    width: 650px;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.texto-cursos h2 {
+    color: #FF4081;
+    font-family: Ubuntu;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.texto-cursos p {
+    text-align: justify;
+}
+
+.texto-cursos a {
+    background-color: #419488;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 60px;
+    text-decoration: none;
+    border-radius: 35px;
+    color: white;
+}
+
+@media only screen and (max-width: 875px){
+    .corpo h1 {
+        font-size: 40px;
+    }
+    .corpo p {
+        font-size: 18px;
+    }
+
+    .foto-cursos img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .texto-cursos h2 {
+        font-size: 25px;
+    }
+    .texto-cursos p {
+        font-size: 20px;
+    }
+    .texto-cursos a {
+        padding: 15px 40px;
+    }
+}
+
+@media only screen and (max-width: 810px){
+    section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .texto-cursos{
+        margin-bottom: 10%;
+    }
+    .texto-cursos a{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+   
+}
