@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ul {
+    list-style: none;
+}
+header {
+    display: flex;
+    background-color: #2E948A;
+    color: white;
+    justify-content: space-between;
+}
+header div {
+    margin-left: 10%;
+}
+header div img {
+    height: 70px;
+    width: 200px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+header ul li {
+    margin: 10px;
+    text-decoration: none;
+}
+header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: white;
+}
+footer {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 200px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+footer div a {
+    text-decoration: none;
+    border: 2px solid white;
+    text-align: center;
+    padding: 5px 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    height: 207px;
+}
+footer div img{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: 75px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 700px) {
+    header div {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header ul {
+        margin: 0;
+    }
+
+    footer {
+        height: 140px;
+    }
+
+    footer div img {
+        display: none;
+    }
+
+    footer div a {
+        padding: 6px 10px;
+        font-size: 17px;
+        margin-top: 5%;
+    }
+
+    footer ul li {
+        margin: 5%;
+    }
+
+    footer ul li a {
+        font-size: 20px;
+    }
+}
