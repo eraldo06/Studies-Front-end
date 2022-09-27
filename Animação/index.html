@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,62 @@
     <title>Document</title>
     <link rel="stylesheet" href="./cs.css">
 </head>
+
 <body>
-   <center> <button onclick="displayAbout()" id="arrow">Mais</button></center>
-    <center><p id="about" style="display:none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestias placeat ipsa. Iure amet repudiandae corrupti dolore rem dignissimos quasi temporibus totam ab ipsam, praesentium eius veniam tempore, magnam assumenda?</p></center>
+    <center>
+        <div>
+            <button onclick="displayAbout()" id="arrow" class="td">Mais</button>
+            <p id="about" style="display:none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                molestias placeat ipsa. Iure amet repudiandae corrupti dolore rem dignissimos quasi temporibus totam ab
+                ipsam, praesentium eius veniam tempore, magnam assumenda?</p>
+        </div>
+    </center>
+
+    <center>
+        <div>
+            <button onclick="displayAbout2()" id="arrow2" class="td">Mais</button>
+            <p id="about2" style="display:none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                molestias placeat ipsa. Iure amet repudiandae corrupti dolore rem dignissimos quasi temporibus totam ab
+                ipsam, praesentium eius veniam tempore, magnam assumenda?</p>
+        </div>
+    </center>
+
+    <center>
+        <div>
+            <button onclick="displayAbout3()" id="arrow3" class="td">Mais</button>
+            <p id="about3" style="display:none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                molestias placeat ipsa. Iure amet repudiandae corrupti dolore rem dignissimos quasi temporibus totam ab
+                ipsam, praesentium eius veniam tempore, magnam assumenda?</p>
+        </div>
+    </center>
+    
+    <center>
+        <div>
+            <button onclick="displayAbout4()" id="arrow4" class="td">Mais</button>
+            <p id="about4" style="display:none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                molestias placeat ipsa. Iure amet repudiandae corrupti dolore rem dignissimos quasi temporibus totam ab
+                ipsam, praesentium eius veniam tempore, magnam assumenda?</p>
+        </div>
+    </center>
 
     <script>
-        function displayAbout(){
+        function displayAbout() {
             var display = document.getElementById('about');
             display.classList.toggle('active');
         }
+        function displayAbout2() {
+            var display = document.getElementById('about2');
+            display.classList.toggle('active2');
+        }
+        function displayAbout3() {
+            var display = document.getElementById('about3');
+            display.classList.toggle('active3');
+        }
+        function displayAbout4() {
+            var display = document.getElementById('about4');
+            display.classList.toggle('active4');
+        }
     </script>
 </body>
+
 </html>

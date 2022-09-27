@@ -3,6 +3,10 @@
     cursor: pointer;
     animation: blink 1s steps(5, start) infinite;
 }
+.td{
+    cursor: pointer;
+    padding: 20px;
+}
 
 /* @keyframes blink{
     to{
@@ -13,4 +17,19 @@
 
 .active{
     display: block !important;
+}
+.active2{
+    display: block !important;
+}
+.active3{
+    display: block !important;
+}
+.active4{
+    display: block !important;
+}
+div{
+    border: solid 1px rgb(0, 0, 0);
+    margin: 5%;
+    padding: 20px;
+    width: 60%;
 }
