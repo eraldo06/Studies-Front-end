@@ -49,3 +49,13 @@ const m: null = null;
 function criar(Object: object){
     // ..
 }
+
+
+// Never
+function loopInfinito(): never{
+    while(true){}
+}
+
+function erro(mensagem: string){
+    throw new Error(mensagem);
+}
