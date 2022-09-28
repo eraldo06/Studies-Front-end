@@ -59,3 +59,42 @@ function loopInfinito(): never{
 function erro(mensagem: string){
     throw new Error(mensagem);
 }
+
+// Union Types
+const nota: string | number = 5;
+function exibirnota(nota: number | String){
+    console.log(`A nota é ${nota}`);
+}
+
+exibirnota('10');
+exibirnota(10);
+
+
+// Alias
+type funcionario ={
+    nome: string;
+    sobrenome: string;
+    dataNascimento: Date;
+}
+
+// type funcionarios = Array<Funcionario>
+const funcionarios: funcionario[] =[
+    {
+        nome: 'string',
+        sobrenome: 'string',
+        dataNascimento: new Date()
+    },{
+        nome: 'string',
+        sobrenome: 'string',
+        dataNascimento: new Date()
+    }
+]
+
+
+
+
+
+
+
+
+
