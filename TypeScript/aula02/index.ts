@@ -12,8 +12,24 @@ const nome: string = 'Eraldo Leonardo';
 
 
 // Array
-const idades: number[] = [23,20,21,19];
-const idades2: Array<number> = [23,20,21,19];
+const idades: number[] = [23,20,21,19];  // array de numeros
+const idades2: Array<number> = [23,20,21,19]; // array de numeros
+
+console.log(idades);
+
+const gatos: string[] =[
+    'neto',
+    'junioe',
+    'valmir'
+]
+
+function exibeGatos(gatos: string[]){
+    return `Os agtos são: ${gatos.join(', ')}`
+}
+
+console.log(exibeGatos(gatos));
+
+
 
 
 // Tuple
