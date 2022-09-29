@@ -37,13 +37,15 @@ let jogadores: [string, string, string];
 jogadores = ['Eraldo', 'Leonardo', 'Paulino'];
 
 
-// Enum
-enum statusAprovacao{
-    aprovado,
-    pedente,
-    reprovado,
+// Enum Valores de referência
+enum Permissoes{
+    admin,
+    editor,
+    comum
 }
-const statusDaAprovacao: statusAprovacao = statusAprovacao.aprovado;
+const usuario ={
+    nivel: Permissoes.comum
+}; // se quiser vc tbm pode colocar valores no enum, para não vim em numeros
 
 
 // Any
