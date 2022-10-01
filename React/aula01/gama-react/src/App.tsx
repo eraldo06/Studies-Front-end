@@ -1,4 +1,6 @@
 import Header from "./componetes/Header";
+import Link from "./componetes/Link";
+import "./style/global.css"
 
 function App() {
   return (
