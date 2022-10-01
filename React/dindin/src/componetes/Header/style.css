@@ -45,3 +45,17 @@ header ul li a {
     line-height: 23px;
     color: white;
 }
+
+@media only screen and (max-width: 700px) {
+    header div {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header ul {
+        margin: 0;
+    }
+}
