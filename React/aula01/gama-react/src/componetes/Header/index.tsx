@@ -4,7 +4,7 @@ import "./style.css";
 
 const alerta = () =>{
     return(
-        alert("conseguiu")
+        alert("você conseguiu")
     )
 }
 
@@ -16,7 +16,7 @@ function Header(){
         <nav>
             <Link texto="Cursos" redirect="/cursos"/>
             <Link texto="Blog" redirect="/cursos"/>
-            <Link texto="Contato" redirect="/cursos"/>
+            <Link texto="Contato" redirect="/contato"/>
         </nav>
         <button onClick={alerta}>Botão</button>
     </header>

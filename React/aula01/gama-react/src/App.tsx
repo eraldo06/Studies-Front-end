@@ -1,23 +1,12 @@
-import Header from "./componetes/Header";
-import Box from "./componetes/Box"
-import Link from "./componetes/Link";
+import Routes from "./Routes";
 import "./style/global.css"
 
 function App() {
   return (
-    
     <div className="App">
-      <Header/>
-      <h1>Pagina Home</h1>
-      <main>
-        <Box background="claro">
-            <h1>teste</h1>
-        </Box>
-        <Box background="escuro">
-            <h1>teste</h1>
-          </Box> 
-      </main>
+      <Routes/>
     </div>
+    
   );
 }
 
