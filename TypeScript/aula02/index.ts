@@ -49,7 +49,7 @@ const usuario ={
 
 
 // Any
-const retornoDaApi: any[]= [123,'Eraldo',false];
+const retornoDaApi: any[]= [123,'Eraldo',false]; // qualquer valor q vc colocar nele, ele vai aceitar
 
 
 // Void / void é do tipo que não retorna nada
@@ -79,7 +79,7 @@ function erro(mensagem: string){
 }
 
 // Union Types
-const nota: string | number = 5;
+const nota: string | number = 5;   // ela pode ser string ou number o usuario q escolhe
 function exibirnota(nota: number | String){
     console.log(`A nota é ${nota}`);
 }
@@ -108,6 +108,9 @@ const funcionarios: funcionario[] =[
     }
 ]
 
+//  Type Assertion
+const nomeUsuario = document.getElementById("nomeUsuario") as HTMLInputElement
+console.log(nomeUsuario.value);
 
 
 
