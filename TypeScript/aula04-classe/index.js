@@ -10,12 +10,14 @@ var Carro = /** @class */ (function () {
         return console.log("O carro do modelo ".concat(this.modelo, " buzinou"));
     };
     Carro.prototype.acelerar = function () {
-        return this.velocidade + 10;
+        return this.velocidade= this.velocidade + 10;
     };
     Carro.prototype.parar = function () {
-        return this.velocidade * 0;
+        return this.velocidade = this.velocidade * 0;
     };
     return Carro;
 }());
 var carro = new Carro('modelo1', 'marca1', 5, 'vermelho', 50);
 carro.buzinar();
+
+console.log(carro);
