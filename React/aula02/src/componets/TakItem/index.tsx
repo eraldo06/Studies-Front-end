@@ -4,7 +4,7 @@ interface TaskItemProps{
 }
 export default function TaskItem(props: TaskItemProps){
     return(
-        <li>
+        <li className={`${props.done ? "done" : ""}`}>
             <span><strong>X</strong></span>
             <p>{props.titulo}</p>
             <span><strong>V</strong></span>

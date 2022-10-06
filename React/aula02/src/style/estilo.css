@@ -5,3 +5,19 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.container2{
+    display: flex;
+    margin: 20px;
+    background-color: black;
+}
+li{
+    background-color: aqua;
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.done{
+    background-color: red;
+    
+}
