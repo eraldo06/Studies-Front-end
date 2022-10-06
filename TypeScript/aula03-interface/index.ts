@@ -1,3 +1,4 @@
+
 interface Usuario{
     nome: string;
     email: string;
@@ -10,3 +11,5 @@ function getUser(): Usuario{  // ese objeto recebe a interface do Usuário
         email: 'eraldo@email'
     }
 }
+
+console.log(getUser().nome);
