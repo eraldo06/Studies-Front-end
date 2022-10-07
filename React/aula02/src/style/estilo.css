@@ -21,3 +21,12 @@ li{
     background-color: red;
     
 }
+
+span{
+    background-color: blue;
+    cursor: pointer;	
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
