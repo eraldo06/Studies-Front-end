@@ -8,7 +8,8 @@ interface Usuario{
 function getUser(): Usuario{  // ese objeto recebe a interface do Usuário
     return{
         nome: 'Eraldo',
-        email: 'eraldo@email'
+        email: 'eraldo@email',
+        
     }
 }
 

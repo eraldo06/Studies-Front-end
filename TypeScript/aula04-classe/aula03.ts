@@ -1,17 +1,8 @@
 class veiculo {
-    marca: string = "marca" 
-    modelo: string = 'modelo'
-    quantidade_de_rodas: number= 5
-    velocidade: number = 0
-
-}
-
-class Carro extends veiculo{
-  
-    quantidade_de_portas: number = 4 
-  
-}
-
-class moto extends veiculo{
-   
-}
+ 
+    constructor(public marca:string,public modelo:string,public quantidade_de_rodas:number,public velocidade:number){}}
+ 
+class Moto extends veiculo{}
+ 
+const Novamoto = new Moto('marca-moto','modelo-moto', 2,0);
+console.log(Novamoto);

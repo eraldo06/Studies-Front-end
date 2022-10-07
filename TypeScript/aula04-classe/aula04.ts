@@ -8,6 +8,7 @@ class AnimalEstimacao {
   
   class Cao extends AnimalEstimacao {
     constructor(nomeRecebido: string) {
+      +-
       super(nomeRecebido);
     }
   
