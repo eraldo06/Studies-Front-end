@@ -1,0 +1,38 @@
+.container{
+    background-color: blueviolet;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container2{
+    display: flex;
+    margin: 20px;
+    background-color: black;
+}
+li{
+    background-color: aqua;
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.done{
+    background-color: red;
+    
+}
+
+span{
+    background-color: blue;
+    cursor: pointer;	
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+li p{
+    width: 30px;
+    margin-left: 10%;
+    margin-left: 10%;
+}
