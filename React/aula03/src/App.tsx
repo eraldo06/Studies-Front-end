@@ -30,10 +30,7 @@ function App() {
    
   }
 
-// brincando
-  const na = [<button>1</button>, <button>2</button>,<button>3</button>  ] 
-
-  // adicionar uma tarefa
+  // concluir uma tarefa
   function concluirTarefa(posi:number){
     const novaLista = [...tarefas];
     novaLista[posi].done = true;
@@ -70,10 +67,7 @@ function App() {
         })}
         </TaskContainer>
 
-        {/* brincando */}
-        <div>
-        {na[2]}
-        </div>
+       
        
       </main>
     </div>
