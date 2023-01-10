@@ -57,8 +57,9 @@ function App() {
           <button id="btnAdd" className="btn btn-primary" onClick={adicionarTarefa}>Add</button>
         </div>
         <TaskContainer>
-        {tarefas.map((tarefa: Tarefa, posi:number)=>{
+        {tarefas.map((tarefa: Tarefa, posi:number, )=>{
           return<TaskItem 
+          key={posi}
           titulo={tarefa.titulo} 
           done={tarefa.done} 
           concluirTarefa={()=>concluirTarefa(posi)}

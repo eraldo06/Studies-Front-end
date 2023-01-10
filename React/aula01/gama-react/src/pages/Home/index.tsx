@@ -4,6 +4,7 @@ import Link from "../../componetes/Link";
 import {useParams} from "react-router-dom";
 import "../../style/global.css"
 
+
 function Home() {
     const params = useParams();
   return (
