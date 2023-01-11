@@ -1,15 +1,14 @@
 import { Children, ReactNode } from "react"
 
 type Props = {
-    url: string;
+  
     children: ReactNode;
 }
 
-export const Foto = ({url}: Props)=>{
+export const Foto = ()=>{
     return(
         <>
-               
-          
+      
            <p>pegpoi</p>
           
            
