@@ -1,19 +1,22 @@
 import { useState } from 'react'
 
-
 function App() {
-  const [nome, setNome] = useState('Eraldo')
 
-  const roda = ()=>{
-    setNome('Leo')
+  const [numero, setNumero] = useState(0)
     
+  const mais = () =>{
+      setNumero(numero + 1)
   }
+
+  const menos = () =>{
+      setNumero(numero - 1)
+}
 
   return (
     <div>
-      <p>meu nome é {nome}</p>
-      <button onClick={roda}>mude nome</button>
-      
+      <p>{numero}</p>
+      <button onClick={mais}>+</button>
+      <button onClick={menos}>-</button>
     </div>
   )
 }
