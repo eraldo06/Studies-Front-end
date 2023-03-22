@@ -1,22 +1,21 @@
-import { useState } from 'react'
+
+import React, { useState } from 'react'
 
 function App() {
 
-  const [numero, setNumero] = useState(0)
-    
-  const mais = () =>{
-      setNumero(numero + 1)
+  const [name, setName] = useState('')
+
+  const pegandoInput = (event: React.ChangeEvent<HTMLInputElement>)=>{
+    setName(event.target.value)
   }
-
-  const menos = () =>{
-      setNumero(numero - 1)
-}
-
+    
+ 
   return (
     <div>
-      <p>{numero}</p>
-      <button onClick={mais}>+</button>
-      <button onClick={menos}>-</button>
+      Nome:
+      <input type="text" value={name} onChange={pegandoInput}/>
+      <hr />
+      Seu nome é: {name}
     </div>
   )
 }
